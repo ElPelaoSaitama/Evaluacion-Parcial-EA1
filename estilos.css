@@ -3,3 +3,9 @@ body{
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
+/* ESTILO PAGINA PLANTAS  */
+.body_plantas {
+    background:url('img/img_nosotros.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
