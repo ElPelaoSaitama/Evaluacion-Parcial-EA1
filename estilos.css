@@ -59,3 +59,29 @@ body{
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
+.img_mover{
+    position: relative;
+    top: 200px;  
+}
+
+.texto_nosotros{
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    color: #fff;
+}
+.img_mover1{
+    position: relative;
+    left: 50px;
+    top: 162px;  
+}
+.img_mover2{
+    position: relative;
+    left: 400px;
+    bottom: 320px;  
+}
+.img_mover3{
+    position: relative;
+    left: 750px;
+    bottom: 770px;  
+}
