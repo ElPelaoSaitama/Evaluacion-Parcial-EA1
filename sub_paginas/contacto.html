@@ -15,26 +15,63 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
 </head>
-<body class="body">
+<body style="text-align: center;">
 
 <!--Formulario incompleto-->
-    <form action="contacto.html"></form>
-    <p>Género:
-        <select name="genero">
-             <option>Masculino</option>  
-             <option>Femenino</option> 
-             <option>Otro</option>     
-           </select>     
-           <div id="body">
-            <form method="get" action="http://aprenderaprogramar.com">
-                        Nombre: <input type="text" name="nombre" /><br />
-                        Apellidos: <input type="text" name="apellidos" /><br />
-                        Dirección: <input type="text" name="direccion" /><br />
-                        Correo electrónico: <input type="text" name="correo" /><br />
-                        Teléfono: <input type="text" name="telefono" /><br />
-                        </form>
-           </div>
-         <p><input type="submit" value="Enviar"></p> 
+----------------------------------
+
+<h1>Formulario de ingreso</h1>
+<form action="mailto:emaildelaempresaquehaceelformulario@email.com" method="post" enctype="text/plain">
+    Nombre: <input type="text" name="nombre" size="25" maxlength="50"><br><br>
+    Apellidos: <input type="text" name="apellidos" size="35" maxlength="100">
+    <br><br>
+    Correo electrónico: <input type="text" value="@" name="correo" size="40" maxlength="100">
+    <br><br>
+    Telefono: <input type="text" name="telefono" size="15" maxlength="50"> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="10">
+    <tr>
+    <td>¿Vives en zona rural o ciudad?<br>
+    <input type="radio" name="conocer">
+     zona Rural<br>
+    <input type="radio" name="conocer">
+    Zona centrica<br> 
+    <input type="radio" name="conocer">
+     Otros</td>
+    </tr>
+    </table>
+    Opinión sobre nuestra página web<br>
+    <textarea cols="40" rows="5" name="opinion"></textarea>    
+    <br><br>    
+    Tiene alguna sugerencia...
+    <br>
+    <textarea cols="40" rows="5" name="sugerencias"></textarea>
+    <br><br>
+    <table width="50%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr>
+    <td><div align="center">
+    <input type="submit" value="Registrar">
+    </div></td>
+    <td><div align="center">
+    <input type="Reset" value="Borrar">
+    </div></td>
+    </tr>
+    </table>
+    </form>
+
+<!--usuario-contraseña-->
+
+<h1></h1>
+ <div class="form-floating mb-3">
+     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+     <label for="floatingInput">Correo electrónico</label>
+    </div>
+    <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Contraseña</label>
+    </div>
+    <p><input type="submit" value="Ingresar"></p> 
+
+        
 </body>
 
 <!-- Footer -->
