@@ -105,9 +105,3 @@ body{
     text-decoration: none;
     color: #3498db;
 }
-
-.container-progress{
-    position: relative;
-    top: 50px;
-    margin: auto;
-}
